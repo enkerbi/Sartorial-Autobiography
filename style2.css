@@ -4,9 +4,13 @@ p {
     
     font-family: Arial, sans-serif;
     font-size: 15px;
+    line-height: 2.5;
     
 }
-
+img{
+    max-width: 150%;
+    max-height: 150%
+    }
 h1 {
 font-family: Arial, sans-serif;
 }
@@ -62,6 +66,7 @@ button {
   height: 100px;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
 }
 
@@ -72,3 +77,11 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+.container6 {
+    display: flex;
+    gap: 10px; /* Optional space between columns */
+  }
+  .column {
+    flex: 1; /* Each column takes up equal space */
+  }
